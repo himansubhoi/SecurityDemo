@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  securitydemo:
+    image: ${DOCKER_REGISTRY}securitydemo
+    build:
+      context: .
+      dockerfile: SecurityDemo\Dockerfile
